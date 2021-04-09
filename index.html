@@ -33,7 +33,7 @@ some well-known smurfs:
 - Brainy Smurf
 - Smurfette
 
-![Brainy Smurf at smurfs.fandom.com](https://static.wikia.nocookie.net/smurfs/images/e/e8/Brainy.jpg/revision/latest?cb=20090609234412)
+![Brainy Smurf at smurfs.fandom.com](https://static.wikia.nocookie.net/smurfs/images/e/e8/Brainy.jpg)
 
 > This is a block quote
 
@@ -49,6 +49,13 @@ some well-known smurfs:
     </script>
 
     <title>FCC Markdown Previewer</title>
+
+    <style media="screen">
+        #previewSide {
+          background-color: #cc64c2;
+        }
+    </style>
+
   </head>
   <body onload="setEditorDefault()" class="bg-primary">
     <div class="container-fluid">
@@ -66,7 +73,7 @@ some well-known smurfs:
             </textarea>
           </div>
         </div>
-        <div class="col-6 bg-info">
+        <div class="col-6" id="previewSide">
           <h2 class="text-white text-center my-3">Previewer</h2>
           <div id="preview" class="">
           </div>
